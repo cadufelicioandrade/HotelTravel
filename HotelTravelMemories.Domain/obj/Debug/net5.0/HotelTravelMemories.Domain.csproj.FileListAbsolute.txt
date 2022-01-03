@@ -1,0 +1,12 @@
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\bin\Debug\net5.0\HotelTravelMemories.Domain.deps.json
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\bin\Debug\net5.0\HotelTravelMemories.Domain.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\bin\Debug\net5.0\ref\HotelTravelMemories.Domain.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\bin\Debug\net5.0\HotelTravelMemories.Domain.pdb
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\HotelTravelMemories.Domain.csproj.AssemblyReference.cache
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\HotelTravelMemories.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\HotelTravelMemories.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\HotelTravelMemories.Domain.AssemblyInfo.cs
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\HotelTravelMemories.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\HotelTravelMemories.Domain.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\ref\HotelTravelMemories.Domain.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Domain\obj\Debug\net5.0\HotelTravelMemories.Domain.pdb

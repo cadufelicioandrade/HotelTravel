@@ -1,0 +1,12 @@
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\bin\Debug\net5.0\HotelTravelMemories.Patterns.deps.json
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\bin\Debug\net5.0\HotelTravelMemories.Patterns.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\bin\Debug\net5.0\ref\HotelTravelMemories.Patterns.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\bin\Debug\net5.0\HotelTravelMemories.Patterns.pdb
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\HotelTravelMemories.Patterns.csproj.AssemblyReference.cache
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\HotelTravelMemories.Patterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\HotelTravelMemories.Patterns.AssemblyInfoInputs.cache
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\HotelTravelMemories.Patterns.AssemblyInfo.cs
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\HotelTravelMemories.Patterns.csproj.CoreCompileInputs.cache
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\HotelTravelMemories.Patterns.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\ref\HotelTravelMemories.Patterns.dll
+C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Patterns\obj\Debug\net5.0\HotelTravelMemories.Patterns.pdb
