@@ -7,6 +7,7 @@ namespace HotelTravelMemories.API.DTO.Quarto
 {
     public class ReadQuartoDto
     {
+        public int Id { get; set; }
         public int Numero { get; set; }
         public int Andar { get; set; }
         public bool Disponivel { get; set; }

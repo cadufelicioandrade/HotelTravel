@@ -7,5 +7,11 @@ namespace HotelTravelMemories.API.DTO.Cidade
 {
     public class ReadCidadeDto
     {
+        public int Id { get; set; }
+        public string City { get; set; }
+        public string UF { get; set; }
+        public string Estado { get; set; }
+
+        public object Enderecos { get; set; }
     }
 }

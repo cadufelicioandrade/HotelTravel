@@ -7,6 +7,7 @@ namespace HotelTravelMemories.API.DTO.Reserva
 {
     public class ReadReservaDto
     {
+        public int Id { get; set; }
         public DateTime DtReserva { get; set; }
         public DateTime DtInclusao { get; set; }
         public object Cliente { get; set; }
