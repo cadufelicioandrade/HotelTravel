@@ -7,6 +7,7 @@ namespace HotelTravelMemories.API.DTO.Servico
 {
     public class ReadServicoDto
     {
+        public int Id { get; set; }
         public string Descricao { get; set; }
         public string Tipo { get; set; }
         public double Valor { get; set; }

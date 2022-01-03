@@ -41,6 +41,15 @@ namespace HotelTravelMemories.API
             services.AddScoped<ITipoQuartoRepository, TipoQuartoRepository>();
 
             services.AddScoped<ClienteService, ClienteService>();
+            services.AddScoped<CargoService, CargoService>();
+            services.AddScoped<CheckoutService, CheckoutService>();
+            services.AddScoped<CidadeService, CidadeService>();
+            services.AddScoped<EnderecoService, EnderecoService>();
+            services.AddScoped<FuncionarioService, FuncionarioService>();
+            services.AddScoped<QuartoService, QuartoService>();
+            services.AddScoped<ReservaService, ReservaService>();
+            services.AddScoped<TipoQuartoService, TipoQuartoService>();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -7,6 +7,7 @@ namespace HotelTravelMemories.API.DTO.TipoQuarto
 {
     public class ReadTipoQuartoDto
     {
+        public int Id { get; set; }
         public string City { get; set; }
         public string UF { get; set; }
         public string Estado { get; set; }

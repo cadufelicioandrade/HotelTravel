@@ -11,6 +11,7 @@ namespace HotelTravelMemories.API.DTO.Checkout
         {
 
         }
+        public int Id { get; set; }
         public int QtdDiarias { get; set; }
         public double ValorDiaria { get; set; }
         public double Total { get; set; }
