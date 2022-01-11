@@ -7,6 +7,8 @@ namespace HotelTravelMemories.API.DTO.Funcionario
 {
     public class CreateFuncionarioDto
     {
+        //Criação de funcionário é obrigatório ter endereço e cargo
+
         public string Nome { get; set; }
         public string Email { get; set; }
         public string RG { get; set; }
@@ -15,7 +17,7 @@ namespace HotelTravelMemories.API.DTO.Funcionario
         public string Celular { get; set; }
         public int CargoId { get; set; }
         public object Cargo { get; set; }
-
+        public bool Ativo { get; set; }
         public object Endereco { get; set; }
 
         public object Reservas { get; set; }

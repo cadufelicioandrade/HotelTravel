@@ -64,5 +64,12 @@ namespace HotelTravelMemories.API.Services
             return Result.Ok();
         }
 
+        public Result AlterarStatus(int id, bool ativar)
+        {
+            if(!_funcionarioRepository.AlterarStatus(id, ativar))
+                return Result.Fail("Funcionário não localizado.");
+
+            return Result.Ok();
+        }
     }
 }

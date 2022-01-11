@@ -14,5 +14,11 @@ namespace HotelTravelMemories.Data.Repository
         public CheckouRepository(HotelContext hotelContext) : base(hotelContext)
         {
         }
+
+        public Checkout GetCheckoutByCliente(int ClienteId)
+        {
+            Checkout checkout = _hotelContext.Checkouts.FirstOrDefault(c => c.Id.Equals(ClienteId));
+            return checkout;
+        }
     }
 }

@@ -40,7 +40,7 @@ namespace HotelTravelMemories.API.Services
         {
             Cargo cargo = _mapper.Map<Cargo>(createCargo);
             _cargoRepository.Add(cargo);
-            return _mapper.Map<ReadCargoDto>(cargo); ;
+            return _mapper.Map<ReadCargoDto>(cargo);
         }
 
         public Result Update(int id, UpdateCargoDto updateCargo)

@@ -19,5 +19,6 @@ namespace HotelTravelMemories.API.DTO.Clientes
         public string Telefone { get; set; }
         public string Celular { get; set; }
         public object Endereco { get; set; }
+        public object Reservas { get; set; }
     }
 }

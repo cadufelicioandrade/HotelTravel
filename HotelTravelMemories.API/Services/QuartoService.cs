@@ -63,5 +63,12 @@ namespace HotelTravelMemories.API.Services
 
             return Result.Ok();
         }
+
+        public List<ReadQuartoDto> GetQuartoByStatus(bool status)
+        {
+            List<Quarto> quartos = _quartoRepository.GetQuartoByStatus(status);
+            return _mapper.Map<List<ReadQuartoDto>>(quartos);
+        }
+
     }
 }

@@ -14,5 +14,20 @@ namespace HotelTravelMemories.Data.Repository
         public FuncionarioRepository(HotelContext hotelContext) : base(hotelContext)
         {
         }
+
+        public bool AlterarStatus(int id, bool ativar)
+        {
+            try
+            {
+                var funcionario = GetById(id);
+                funcionario.Ativo = ativar;
+                Update(funcionario);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }

@@ -9,5 +9,6 @@ namespace HotelTravelMemories.Data.Interfaces
 {
     public interface ICheckoutRepository : IBaseRepository<Checkout>
     {
+        Checkout GetCheckoutByCliente(int ClienteId);
     }
 }

@@ -51,7 +51,7 @@ namespace HotelTravelMemories.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateCargo(int id, UpdateCargoDto updateCargo)
+        public IActionResult UpdateCargo(int id, [FromBody] UpdateCargoDto updateCargo)
         {
             Result result = _cargoService.Update(id, updateCargo);
 
@@ -69,7 +69,7 @@ namespace HotelTravelMemories.API.Controllers
             if (result.IsFailed)
                 return NotFound(result.Errors[0].Message);
 
-            return Ok();
+            return NoContent();
         }
 
     }

@@ -9,5 +9,6 @@ namespace HotelTravelMemories.Data.Interfaces
 {
     public interface IFuncionarioRepository : IBaseRepository<Funcionario>
     {
+        bool AlterarStatus(int id, bool ativar);
     }
 }

@@ -21,6 +21,7 @@ namespace HotelTravelMemories.Domain.Model
         public string Telefone { get; set; }
         public string Celular { get; set; }
         public int CargoId { get; set; }
+        public bool Ativo { get; set; }
         public virtual Cargo Cargo { get; set; }
 
         public virtual Endereco Endereco { get; set; }
