@@ -14,5 +14,10 @@ namespace HotelTravelMemories.Data.Repository
         public QuartoRepository(HotelContext hotelContext) : base(hotelContext)
         {
         }
+
+        public List<Quarto> GetQuartoByStatus(bool status)
+        {
+            return _hotelContext.Quartos.Where(q => q.Disponivel == status).ToList();
+        }
     }
 }

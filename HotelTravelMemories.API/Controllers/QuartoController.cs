@@ -43,6 +43,17 @@ namespace HotelTravelMemories.API.Controllers
             return Ok(readQuarto);
         }
 
+        [HttpGet("{status}")]
+        public IActionResult GetQuartosByStatus(bool status)
+        {
+            List<ReadQuartoDto> quartoDtos = _quartoService.GetQuartoByStatus(status);
+
+            if (quartoDtos.Count <= 0)
+                return NotFound("Nenhum quarto localizado.");
+
+            return Ok(quartoDtos);
+        }
+
         [HttpPost]
         public IActionResult CreateQuarto([FromBody] CreateQuartoDto createQuarto)
         {
@@ -51,7 +62,7 @@ namespace HotelTravelMemories.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateQuarto(int id, UpdateQuartoDto updateQuarto)
+        public IActionResult UpdateQuarto(int id, [FromBody] UpdateQuartoDto updateQuarto)
         {
             Result result = _quartoService.Update(id, updateQuarto);
 

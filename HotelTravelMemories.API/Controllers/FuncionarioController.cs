@@ -53,6 +53,7 @@ namespace HotelTravelMemories.API.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateFuncionario(int id, UpdateFuncionarioDto updateFuncionario)
         {
+            //Funcionário realiza uma reserva atualizar com a reserva
             Result result = _funcionarioService.Update(id,updateFuncionario);
 
             if (result.IsFailed)
@@ -70,6 +71,17 @@ namespace HotelTravelMemories.API.Controllers
                 return NotFound(result.Errors[0].Message);
 
             return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult AlterarStatus(int id, [FromBody] bool ativar)
+        {
+            Result result = _funcionarioService.AlterarStatus(id, ativar);
+
+            if (result.IsFailed)
+                return NotFound(result.Errors[0].Message);
+
+            return Ok("Status alterado com sucesso!");
         }
     }
 }

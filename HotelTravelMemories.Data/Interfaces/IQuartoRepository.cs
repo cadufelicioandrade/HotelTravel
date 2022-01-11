@@ -9,5 +9,6 @@ namespace HotelTravelMemories.Data.Interfaces
 {
     public interface IQuartoRepository : IBaseRepository<Quarto>
     {
+        List<Quarto> GetQuartoByStatus(bool status);
     }
 }

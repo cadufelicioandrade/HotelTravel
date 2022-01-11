@@ -41,6 +41,17 @@ namespace HotelTravelMemories.API.Controllers
             return Ok(readCheckout);
         }
 
+        [HttpGet("{clienteId")]
+        public IActionResult GetCheckoutByCliente(int clienteId)
+        {
+            ReadCheckoutDto readCheckout = _checkoutService.GetCheckoutByCliente(clienteId);
+
+            if (readCheckout is null)
+                return NotFound("Cliente não localizado para está conta.");
+
+            return Ok(readCheckout);
+        }
+
         [HttpPost]
         public IActionResult CreateCheckout([FromBody] CreateCheckoutDto createCheckout)
         {

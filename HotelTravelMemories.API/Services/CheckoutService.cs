@@ -41,6 +41,16 @@ namespace HotelTravelMemories.API.Services
             return _mapper.Map<ReadCheckoutDto>(checkout);
         }
 
+        internal ReadCheckoutDto GetCheckoutByCliente(int clienteId)
+        {
+            Checkout checkout = _checkoutRepository.GetCheckoutByCliente(clienteId);
+
+            if (checkout is null)
+                return null;
+
+            return _mapper.Map<ReadCheckoutDto>(checkout);
+        }
+
         public Result Update(int id, UpdateCheckoutDto updateCheckout)
         {
             Checkout checkout = _checkoutRepository.GetById(id);

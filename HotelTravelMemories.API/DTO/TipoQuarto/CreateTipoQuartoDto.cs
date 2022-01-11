@@ -7,5 +7,7 @@ namespace HotelTravelMemories.API.DTO.TipoQuarto
 {
     public class CreateTipoQuartoDto
     {
+        public string Descricao { get; set; }
+        public double ValorDiaria { get; set; }
     }
 }

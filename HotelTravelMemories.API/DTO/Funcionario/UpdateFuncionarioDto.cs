@@ -15,7 +15,7 @@ namespace HotelTravelMemories.API.DTO.Funcionario
         public string Celular { get; set; }
         public int CargoId { get; set; }
         public object Cargo { get; set; }
-
+        public bool Ativo { get; set; }
         public object Endereco { get; set; }
 
         public object Reservas { get; set; }
