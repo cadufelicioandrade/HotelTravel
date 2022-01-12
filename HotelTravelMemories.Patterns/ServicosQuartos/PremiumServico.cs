@@ -9,7 +9,7 @@ namespace HotelTravelMemories.Patterns.ServicosQuartos
 {
     public class PremiumServico : IServico
     {
-        public void Calcular(Orcamento orcamento)
+        public void Calcular(ContaCliente orcamento)
         {
             if (orcamento.Servico.Premium > 0)
                 orcamento.ValorTotal += (orcamento.ValorTotal * orcamento.Servico.Premium);

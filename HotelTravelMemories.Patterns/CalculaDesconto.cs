@@ -10,7 +10,7 @@ namespace HotelTravelMemories.Patterns
 {
     public class CalculaDesconto
     {
-        public void Calcular(Orcamento orcamento)
+        public static void Calcular(ContaCliente orcamento)
         {
             IDesconto d1 = new DescQuinzeDias();
             IDesconto d2 = new DescTrintaDias();

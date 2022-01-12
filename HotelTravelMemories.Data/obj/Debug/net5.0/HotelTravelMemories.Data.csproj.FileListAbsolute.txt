@@ -11,7 +11,6 @@ C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug\net5.0\HotelTravelMemories.Data.AssemblyInfoInputs.cache
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug\net5.0\HotelTravelMemories.Data.AssemblyInfo.cs
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug\net5.0\HotelTravelMemories.Data.csproj.CoreCompileInputs.cache
-C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug\net5.0\HotelTravelMemories.Data.csproj.CopyComplete
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug\net5.0\HotelTravelMemories.Data.dll
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug\net5.0\ref\HotelTravelMemories.Data.dll
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Data\obj\Debug\net5.0\HotelTravelMemories.Data.pdb

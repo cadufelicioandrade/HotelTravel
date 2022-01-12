@@ -21,12 +21,18 @@ namespace HotelTravelMemories.Domain.Model
         public virtual Funcionario Funcionario { get; set; }
         public int FuncionarioId { get; set; }
         public double Sinal { get; set; }
-        public int QuartoId { get; set; }
         public virtual Quarto Quarto { get; set; }
+        public int QuartoId { get; set; }
+
         public virtual List<Servico> Servicos { get; set; }
 
-        public int CheckoutId { get; set; }
         public virtual Checkout Checkout { get; set; }
+        public int? CheckoutId { get; set; }
+
+        public int GetAllDays()
+        {
+            return (this.DtReserva - DateTime.Now).Days;
+        }
 
     }
 }

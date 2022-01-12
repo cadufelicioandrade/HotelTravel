@@ -64,5 +64,9 @@ namespace HotelTravelMemories.API.Services
             return Result.Ok();
         }
 
+        public Reserva ToReserva(ReadReservaDto readReservaDto)
+        {
+            return _mapper.Map<Reserva>(readReservaDto);
+        }
     }
 }
