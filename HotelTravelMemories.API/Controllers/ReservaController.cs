@@ -45,6 +45,74 @@ namespace HotelTravelMemories.API.Controllers
         [HttpPost]
         public IActionResult CreateReserva([FromBody] CreateReservaDto createReserva)
         {
+            #region JSON Create Reserva
+            //{
+            //  "DtReserva":"2022-01-12",
+            //	"DtInclusao":"2022-01-12",
+            //	"Cliente": {
+            //				"Id":1,
+            //		        "Nome":"teste",
+            //		        "Email":"teste@teste.com",
+            //		        "RG":"12332111",
+            //		        "CPF":"2223334455",
+            //		        "Telefone":"1123324554",
+            //		        "Celular":"11923331222",
+            //		        "Endereco": {
+            //		        	           "Id":1,
+            //		        	           "Logradouro":"Rua: teste",
+            //		        	           "Bairro": "Teste",
+            //		        	           "CEP":"0000000",
+            //		        	           "Complemento":"",
+            //		        	           "Numero":123,
+            //		        	           "ClientId":1,
+            //		        	           "FuncionarioId":null,
+            //		        	           "CidadeId":1
+            //  	        	       }
+            //			},
+            //	"ClienteId": 1,
+            //	"Fucionario":{
+            //		         "Id":1,
+            //		         "Nome":"teste",
+            //		         "Email":"teste@teste.com",
+            //		         "RG":"223334445",
+            //		         "CPF":"22233344455",
+            //		         "Telefone":"1122334455",
+            //		         "Celular":"119887766554",
+            //		         "CargoId":1,
+            //		         "Ativo":true,
+            //		         "Cargo": {
+            //						    "Id":1,
+            //			                "Descricao":"Recepcionista"
+            //              },
+            //	            "Endereco":{
+            //	            		    "Id":2,
+            //	            		    "Logradouro":"Rua: teste",
+            //	            		    "Bairro": "Teste",
+            //	            		    "CEP":"0000000",
+            //	            		    "Complemento":"",
+            //	            		    "Numero":123,
+            //	            		    "ClientId":null,
+            //	            		    "FuncionarioId":1,
+            //	            		    "CidadeId":1
+            //	            	        }
+            //			},
+            //	"FuncionarioId":1,
+            //	"Sinal":0,
+            //	"Quarto":{
+            //		        "Id":1,
+            //		        "Numero":1,
+            //		        "Andar":1,
+            //		        "Disponivel":true,
+            //		        TipoQuarto: {
+            //						        "Id":1,
+            //			                    "Descricao":"teste",
+            //			                    "ValorDiaria":70
+            //		                    }
+            //				},
+            //	"QuartoId": 1,
+            //}
+            #endregion
+
             ReadReservaDto readReserva = _reservaService.Create(createReserva);
             return CreatedAtAction(nameof(GetReservaById), new { Id = readReserva.Id }, readReserva);
         }

@@ -8,7 +8,7 @@ namespace HotelTravelMemories.Patterns.Interfaces
 {
     public interface IDesconto
     {
-        void CalcularDesconto(Orcamento orcamento);
+        void CalcularDesconto(ContaCliente orcamento);
         IDesconto ProximoDesconto { get; set; }
 
     }

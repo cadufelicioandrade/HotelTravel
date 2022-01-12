@@ -12,7 +12,7 @@ namespace HotelTravelMemories.Patterns.Descontos
     {
         public IDesconto ProximoDesconto { get; set; }
 
-        public void CalcularDesconto(Orcamento orcamento)
+        public void CalcularDesconto(ContaCliente orcamento)
         {
             if (orcamento.CupomDesconto)
                 orcamento.ValorTotal -= (orcamento.ValorTotal * (Convert.ToInt32(ePorcentagem.cinco) / 100));

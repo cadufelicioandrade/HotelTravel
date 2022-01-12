@@ -63,7 +63,6 @@ C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug\net5.0\staticwebassets\HotelTravelMemories.Auth.StaticWebAssets.xml
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug\net5.0\scopedcss\bundle\HotelTravelMemories.Auth.styles.css
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug\net5.0\HotelTravelMemories.Auth.RazorTargetAssemblyInfo.cache
-C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug\net5.0\HotelTravelMemories.Auth.csproj.CopyComplete
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug\net5.0\HotelTravelMemories.Auth.dll
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug\net5.0\ref\HotelTravelMemories.Auth.dll
 C:\Projetos\Meus Projetos\HotelTravelMemories\HotelTravelMemories.Auth\obj\Debug\net5.0\HotelTravelMemories.Auth.pdb

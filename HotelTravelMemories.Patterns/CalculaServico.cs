@@ -10,9 +10,17 @@ namespace HotelTravelMemories.Patterns
 {
     public class CalculaServico
     {
-        public void Calcular(Orcamento orcamento, IServico porcentagemServico)
+        public static void Calcular(ContaCliente orcamento )
         {
-            porcentagemServico.Calcular(orcamento);
+            List<IServico> porcentagemServicos = new List<IServico>()
+            {
+                new CoberturaServico(), new MasterServico(), new PremiumServico(), new TradicionalCasalServico(), new TradicionalSolteiroServico()
+            };
+
+            foreach (IServico servico in porcentagemServicos)
+            {
+                servico.Calcular(orcamento);
+            }
         }
     }
 }

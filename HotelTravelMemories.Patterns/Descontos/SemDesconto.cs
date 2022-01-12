@@ -11,7 +11,7 @@ namespace HotelTravelMemories.Patterns.Descontos
     {
         public IDesconto ProximoDesconto { get; set; }
 
-        public void CalcularDesconto(Orcamento orcamento)
+        public void CalcularDesconto(ContaCliente orcamento)
         {
             orcamento.ValorTotal -= 0;
         }

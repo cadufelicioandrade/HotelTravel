@@ -8,6 +8,6 @@ namespace HotelTravelMemories.Patterns.Interfaces
 {
     public interface IServico
     {
-        void Calcular(Orcamento orcamento);
+        void Calcular(ContaCliente orcamento);
     }
 }
